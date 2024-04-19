@@ -98,19 +98,18 @@ ultimate goal of determining which algorithm is the fastest and characterizing
 the likely time complexity of each algorithm.
 - Write and publish on the course web site a blog post that explains (a) how you
 designed and implemented your benchmarking framework, (b) the list-processing
-algorithm functions that you chose to use in your doubling experiments, (c) the
-runtime results from your experimental study with the benchmarking framework
-that you implemented and (d) the running time results from an analytical
-evaluation that you conducted. Your blog post should clearly articulate (a)
-whether or not the experimental and analytical results for your function are in
-alignment with each other, (b) what is most likely to be the realistic runtime
-and true running time of a list-processing function, and (c) why you judge that
-your function has this runtime and running time, (d) which list-processing
-algorithm function from among those selected by your team members is the
-fastest, and (e) why this specific implementation proved to be the fastest among
-all of the list-processing algorithms.
+functions that you chose to use in your doubling experiments, (c) the runtime
+results from your experimental study with the benchmarking framework that you
+implemented and (d) the running time results from an analytical evaluation that
+you conducted. Your blog post should clearly articulate (a) whether or not the
+experimental and analytical results for your function are in alignment with each
+other, (b) what is most likely to be the realistic runtime and true running time
+of a list-processing function, and (c) why you judge that your function has this
+runtime and running time.
 - Present your findings to the entire class during the following week of the
-academic semester during the follow-on algorithm all-hands session.
+academic semester during the follow-on algorithm all-hands session. One member
+from each of the sub-teams should play a role in the presentation given during
+the algorithm all-hands session.
 - Please note that all of the work that you complete for this assignment should
 be published to the course web site. Your team must create and contribute to a
 pull request on the course web site's GitHub repository and ensure that your
