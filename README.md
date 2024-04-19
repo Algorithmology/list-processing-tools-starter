@@ -111,7 +111,8 @@ academic semester during the follow-on algorithm all-hands session. One member
 from each of the sub-teams should play a role in the presentation given during
 the algorithm all-hands session.
 - Please note that all of the work that you complete for this assignment should
-be published to the course web site. Your team must create and contribute to a
+be published to the course web site. Following the aforementioned requirements
+for each of the sub-teams, your overall team must create and contribute to a
 pull request on the course web site's GitHub repository and ensure that your
 work is reviewed, revised, and published in advance of the Friday class session
 for next week. Importantly, your implementation of the benchmarking framework
