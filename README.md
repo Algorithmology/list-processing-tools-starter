@@ -72,14 +72,16 @@ project, into sub-teams organized around completing the following task:
     assist the members of team tasked with the experimental and analytical
     evaluation, thereby ensuring that they can run the needed experiments.
     - **List-Processing Algorithms**: The members of this sub-team will identify
-    and commit a wide variety of list-processing algorithms, working in a
+    and commit a wide variety of list-processing algorithms, leveraging a
     separate GitHub repository that they work with the infrastructure team to
     create and manage. The members of this team are also responsible for running
     the `bosco` tool on each of the list-processing algorithms and confirming
     that the tool produces the expected output. When this team discovers that
     `bosco` does not work correctly for a specific list-processing algorithm,
     they will work with the members of the benchmarking framework team to ensure
-    that the tool is correctly implemented to handle the identified issue.
+    that the tool is correctly implemented to handle the identified issue. This
+    team will also assist the team members tasked with performing the experimental
+    and analytical evaluation to ensure that they can run the needed experiments.
     - **Experimental and Analytical Evaluation**: The members of this sub-team
     will complete the article published to the algorithm all-hands section of
     the Algorithmology web site. In addition to writing the article, the members
