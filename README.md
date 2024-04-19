@@ -121,7 +121,7 @@ GitHub repositories that are referenced in the blog post that you write.
 
 It is important to point out that your repository for this project was created
 from the GitHub repository template called
-[list-list-processing-tools-starter](https://github.com/Algorithmology/list-processing-tools-starter);
+[list-processing-tools-starter](https://github.com/Algorithmology/list-processing-tools-starter);
 you can check this repository for any updates to this project's documentation or
 source code! Finally, the teams and their corresponding functions will be
 assigned through an announcement in Discord; check there for more details!
