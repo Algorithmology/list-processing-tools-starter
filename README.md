@@ -58,11 +58,19 @@ project, into sub-teams organized around completing the following task:
     project, this members of this sub-team will define and implement a process
     for reviewing and merging the tool's source code, setup and configure GitHub
     Actions, make releases of the tool to PyPI, and handle all other
-    infrastructure-related tasks.
+    infrastructure-related tasks. This team is also responsible for setting up
+    and managing the GitHub repository that will contain the list-processing
+    algorithms chosen by the members of the list-processing algorithms sub-team.
     - **Benchmarking Framework**: The members of this sub-team will specify,
     design, implement, and test the `bosco` tool, ensuring that it correctly
     runs a doubling experiment for any type of list-processing algorithm that
-    meets the stated expectations of the tool.
+    meets the stated expectations of the tool. This team will work with the
+    infrastructure team to ensure that their changes are merged into the `main`
+    branch of the GitHub repository. The team's members will also work with the
+    team that finds the list-processing algorithms to confirm that `bosco` works
+    correctly for every one of the chosen algorithms. Finally, this team will
+    assist the members of team tasked with the experimental and analytical
+    evaluation, thereby ensuring that they can run the needed experiments.
     - **List-Processing Algorithms**: The members of this sub-team will identify
     and commit a wide variety of list-processing algorithms, working in a
     separate GitHub repository that they work with the infrastructure team to
