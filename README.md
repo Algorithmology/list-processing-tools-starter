@@ -56,9 +56,32 @@ keep in mind the following considerations and tasks:
 project, into sub-teams organized around completing the following task:
     - **Infrastructure**: Using the provided GitHub repository for the `bosco`
     project, this members of this sub-team will define and implement a process
-    for reviewing and merging source code, setting up and configuring GitHub
-    Actions, making releases of the tool to PyPI, and handling all other
+    for reviewing and merging the tool's source code, setup and configure GitHub
+    Actions, make releases of the tool to PyPI, and handle all other
     infrastructure-related tasks.
+    - **Benchmarking Framework**: The members of this sub-team will specify,
+    design, implement, and test the `bosco` tool, ensuring that it correctly
+    runs a doubling experiment for any type of list-processing algorithm that
+    meets the stated expectations of the tool.
+    - **List-Processing Algorithms**: The members of this sub-team will identify
+    and commit a wide variety of list-processing algorithms, working in a
+    separate GitHub repository that they work with the infrastructure team to
+    create and manage. The members of this team are also responsible for running
+    the `bosco` tool on each of the list-processing algorithms and confirming
+    that the tool produces the expected output. When this team discovers that
+    `bosco` does not work correctly for a specific list-processing algorithm,
+    they will work with the members of the benchmarking framework team to ensure
+    that the tool is correctly implemented to handle the identified issue.
+    - **Experimental and Analytical Evaluation**: The members of this sub-team
+    will complete the article published to the algorithm all-hands section of
+    the Algorithmology web site. In addition to writing the article, the members
+    of this team will perform a preliminary analytical evaluation of each
+    function identified by the team tasked with finding the list-processing
+    algorithms. The team members will use the results of their analytical
+    evaluation to guide their use of the completed `bosco` tool when running a
+    doubling experiment to evaluate the performance of each algorithm. This team
+    will also write the final report and work with the course instructor to
+    publish it to the Algorithmology web site by the following Friday.
 - Meet in your assigned groups to discuss how your team is going to design,
 implement, test, and evaluate your benchmarking framework. Make sure that you
 give your benchmarking framework a descriptive name that reflects its purpose.
@@ -120,15 +143,15 @@ TODO: Please make sure that you complete and document the following steps:
 Code while completing this assignment.
 
 - TODO: Provide a reference to the GitHub repository that your team used to
-store your implementation of the benchmarking framework.
-
-- TODO: If your list-processing algorithm functions are stored in a separate
-GitHub repository, please provide a reference to that GitHub repository as well.
+store the work that your sub-team completed. Make sure to count and report the
+number of commits that you made to this GitHub repository.
 
 - TODO: Add a reference to the blog post that you and your team members wrote.
 
 - TODO: Write at least two sentences to explain the key role(s) that you played
-in completing this team-based project.
+in completing this team-based project. Your response to this part of the
+question should carefully explain the role that you took in your assigned
+sub-team and how you contributed to the completion of the overall project.
 
 - TODO: Write at least one sentence to describe the contributions of each of the
-  other people who are in your sub-team.
+other people who are in your sub-team.
