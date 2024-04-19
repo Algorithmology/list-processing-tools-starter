@@ -8,25 +8,32 @@
 There are numerous algorithms that process a list of values. The purpose of this
 algorithm all-hands assignment is to design, implement, test and then use in an
 empirical study a tool that can automatically conduct doubling experiments to
-measure the performance of an arbitrary list processing algorithm.
+measure the performance of an arbitrary list processing algorithm. The tool that
+you implement, tentatively called `bosco`, should operate in a fashion that is
+as general-purpose as is possible. This means that it should, whenever possible,
+be able to automatically detect and invoke a list-processing function in a
+provided Python source code file, determine the type of list that is input into
+that function, and then generate data that is suitable for the purposes of
+running a doubling experiment to identify its likely worst-case time complexity.
 
-This algorithm all-hands assignment invites you to apply what you learned in
-those modules by implementing a benchmarking framework that operates in the
-following fashion:
+Ultimately, this algorithm all-hands assignment invites you to apply what you
+learned in the algorithm analysis course, by implementing a benchmarking
+framework that operates in the following fashion:
 
 - Accept as input one or more Python source code files that contain one or more
-functions that perform list processing. For the purposes of creating your benchmarking
-framework you can assume that all list-processing algorithms will implement the same
-function signature that you carefully document in a README and your tool's
-comments.
-- Accept as input the fully-qualified name of a list-processing function that should be
-subject to benchmarking.
+functions that perform list processing. For the purposes of creating your
+benchmarking framework you can assume that all list-processing algorithms will
+implement some type of function that accepts as input a list and that it will be
+this list whose contents are doubled during the execution of a doubling
+experiment.
+- Accept as input the fully-qualified name of a list-processing function that
+should be subject to benchmarking through a doubling experiment.
 - Accept as input the description of an input generation procedure that can
 automatically generate data suitable for the purposes of conducting a doubling
 experiment to evaluate the performance of the list-processing algorithm.
-- Automatically extract the list-processing function from the provided Python source
-code file(s) and then reflectively invoke the function to sort data that was
-automatically generated.
+- Automatically extract the list-processing function from the provided Python
+source code file(s) and then reflectively invoke the function to sort data that
+was automatically generated.
 - In a series of automatically completed benchmarking rounds, the tool should
 conduct a doubling experiment by which it generates data sets of increasing size
 and then uses them to evaluate the performance of the list-processing algorithm.
@@ -45,6 +52,9 @@ Python code segments.
 As you work to build and evaluate this system in a team-based fashion, please
 keep in mind the following considerations and tasks:
 
+- Organize your class, which comprises the team for this algorithm all-hands
+project, into sub-teams organized around completing the following task:
+    - **Infrastructure**: 
 - Meet in your assigned groups to discuss how your team is going to design,
 implement, test, and evaluate your benchmarking framework. Make sure that you
 give your benchmarking framework a descriptive name that reflects its purpose.
